@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CricketScoreApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_modify">ModifyActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_startmatch">StartmatchActivity</string>
+    <string name="title_activity_squad_one">SquadOne</string>
+    <string name="title_activity_squad_two">SquadTwo</string>
+    <string name="title_activity_toss">TossActivity</string>
+    <string name="title_activity_game">Game</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cricketscoreapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.cricketscoreapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.ModifyActivity"
+            android:label="@string/title_activity_modify" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.AddActivity"
+            android:label="@string/title_activity_add" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.PlayerActivity"
+            android:label="@string/title_activity_player" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.StartmatchActivity"
+            android:label="@string/title_activity_startmatch" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.SquadOne"
+            android:label="@string/title_activity_squad_one" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.SquadTwo"
+            android:label="@string/title_activity_squad_two" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.TossActivity"
+            android:label="@string/title_activity_toss" >
+        </activity>
+        <activity
+            android:name="com.example.cricketscoreapp.Game"
+            android:label="@string/title_activity_game" >
+        </activity>
+    </application>
+
+</manifest>

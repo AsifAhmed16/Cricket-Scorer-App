@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddActivity" >
+
+    <EditText
+        android:id="@+id/txtTname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="Team Name" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/txtTname"
+        android:layout_below="@+id/txtTname"
+        android:layout_marginTop="16dp"
+        android:onClick="addPlayerClicked"
+        android:src="@drawable/plusmenu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Add Players"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Player Name" />
+
+    <ImageView
+        android:id="@+id/btnSave"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignRight="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:layout_marginRight="35dp"
+        android:onClick="btnSavePlayer"
+        android:src="@drawable/savebtn" />
+
+    <TextView
+        android:id="@+id/saveText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="Save"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>
